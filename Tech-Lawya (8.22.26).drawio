@@ -1,9 +1,12 @@
 <mxfile host="Electron">
   <diagram name="Page-1" id="WecKjAPIBVKhBpwTrD-9">
-    <mxGraphModel dx="1178" dy="701" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1414" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ivcQEreLVQwTHXJ4QyxR-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=2;strokeWidth=10;" value="" vertex="1">
+          <mxGeometry height="600" width="954" x="566" y="100" as="geometry" />
+        </mxCell>
         <mxCell id="2kNulWZXECBL0SY-MXXK-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=4;strokeWidth=6;" value="" vertex="1">
           <mxGeometry height="540" width="900" x="600" y="130" as="geometry" />
         </mxCell>
@@ -65,7 +68,7 @@
           <mxGeometry height="540" width="320" x="590" y="860" as="geometry" />
         </mxCell>
         <mxCell id="TLNffCvwS6_SyznYz0_J-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 36px;&quot;&gt;&lt;b&gt;Desktop View:&lt;/b&gt;&lt;/span&gt;" vertex="1">
-          <mxGeometry height="60" width="345" x="547.5" y="60" as="geometry" />
+          <mxGeometry height="60" width="345" x="543.5" y="40" as="geometry" />
         </mxCell>
         <mxCell id="TLNffCvwS6_SyznYz0_J-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 36px;&quot;&gt;&lt;b&gt;Mobile View:&lt;/b&gt;&lt;/span&gt;" vertex="1">
           <mxGeometry height="60" width="242.5" x="580" y="800" as="geometry" />
