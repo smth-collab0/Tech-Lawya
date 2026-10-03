@@ -117,13 +117,45 @@ nav ul li{
     width: 35%;
     height: 946px;
     background-color: #F95F62;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
 }
 
 .art002h{
-    width: 100%;
+    margin-top: 150px;
+    width: 60%;
+    /* background-color: rgb(146, 146, 202); */
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+
+.h25{
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.p11{
+    color: #FFFFFF;
+    margin-bottom: 335px;
+    font-size: 20px;
 }
 
 button{
     width: 20%;
     height: 5%;
+}
+
+.button1{
+    margin-top: 30px;
+    margin-left: 400px;
+}
+
+.button2{
+    margin-right: 535px;
 }
