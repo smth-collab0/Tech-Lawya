@@ -22,11 +22,6 @@ main{
     flex-direction: row;
 } 
 
-.art1{
-    width: 65%;
-    height: 946px;
-    /* background-color: yellow; */
-}
 
 header{
     /* background-color: #36CDCC; */
@@ -44,7 +39,7 @@ nav{
     align-items: center;
 }
 
-img{
+.img1677{
     height: 60px;
     width: 60px;
     margin-left: 60px;
@@ -68,6 +63,12 @@ nav ul li{
     font-weight: bold;
 }
 
+.art1{
+    width: 65%;
+    height: 946px;
+    /* background-color: yellow; */
+}
+
 .off{
     text-decoration: overline;
     color: #e26062;
@@ -84,17 +85,20 @@ nav ul li{
     flex-direction: column;
     justify-content: center;
     margin-left: 20px;
+    font-size: 20px;
+    /* background-color:bisque; */
 }
 
 .h22{
     /* font-weight: bold; */
-    font-size: 15px;
+    font-size: 20px;
     text-decoration: underline;
     margin-bottom: 12px;
     
 }
 
 .p1{
+    margin-top: 40px;
     color: #e26062;
     text-decoration: underline;
 }
@@ -130,7 +134,7 @@ nav ul li{
     height: 180px;
     display: flex;
     flex-direction: column;
-    align-items: center;   
+    margin-bottom: 100px;
 }
 
 .h25{
@@ -144,6 +148,7 @@ nav ul li{
     color: #FFFFFF;
     margin-bottom: 335px;
     font-size: 20px;
+
 }
 
 button{
@@ -154,8 +159,67 @@ button{
 .button1{
     margin-top: 30px;
     margin-left: 400px;
+    background-color: #F95F63;
+    border: 2px solid #ffffff;
+    border-radius: 0px 20px 0px 20px;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
 }
 
 .button2{
+    width: 25%;
     margin-right: 535px;
+    margin-left: 310px;
+    border-radius: 0px 20px 0px 20px;
+    color:#e26062;
+    font-size: 15px;
+    font-weight: 700;
+    border: 2px solid #ffffff;
+}
+
+@media (width <= 425){
+    .sect1{
+    width: 425px;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: row;
+    
+}
+    header{
+    background-color: #36CDCC;
+    width: 425px;
+    margin-bottom: 160px;
+}
+
+nav{
+    /* background-color: plum; */
+    width: 425px;
+    display: flex;
+    justify-content: row;
+    align-items: center;
+}
+
+.img1677{
+    height: 30px;
+    width: 30px;
+    margin-left: 60px;
+    margin-right: 70px;
+}
+
+ul{
+    /* background-color: purple; */
+    flex-direction: row;
+    justify-content: center; 
+    list-style: none;
+    align-items: center;
+    display: flex;
+    width: 340px;
+}
+
+nav ul li{
+    font-size: 10px;
+    margin-right: 10px;
+    font-weight: bold;
+}
 }
