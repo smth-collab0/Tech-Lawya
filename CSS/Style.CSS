@@ -66,16 +66,18 @@ nav ul li{
 .art1{
     width: 65%;
     height: 946px;
-    /* background-color: yellow; */
+    background-color: yellow;
 }
 
 .off{
     text-decoration: overline;
     color: #e26062;
 }
+
 .aa1{
     display: flex;
     flex-direction: row;
+    background-color:rgb(190, 112, 15);
 }
 
 .art01{
@@ -86,7 +88,6 @@ nav ul li{
     justify-content: center;
     margin-left: 20px;
     font-size: 20px;
-    /* background-color:bisque; */
 }
 
 .h22{
@@ -178,33 +179,43 @@ button{
     border: 2px solid #ffffff;
 }
 
-@media (width <= 425){
+@media (width <= 425px){
     .sect1{
     width: 425px;
     /* background-color: aqua; */
     display: flex;
-    flex-direction: row;
-    
+    flex-direction: column; 
 }
+
+
+.art1{
+    width: 425px;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+}
+
     header{
-    background-color: #36CDCC;
+    /* background-color: #36CDCC; */
     width: 425px;
     margin-bottom: 160px;
+    display: flex;
+    flex-direction: row;
 }
 
 nav{
     /* background-color: plum; */
     width: 425px;
     display: flex;
-    justify-content: row;
+    flex-direction: row;
     align-items: center;
 }
 
 .img1677{
     height: 30px;
     width: 30px;
-    margin-left: 60px;
-    margin-right: 70px;
+    margin-left: 12px;
+    margin-right: 35px;
 }
 
 ul{
@@ -214,12 +225,43 @@ ul{
     list-style: none;
     align-items: center;
     display: flex;
-    width: 340px;
+    width: 348px;
 }
 
 nav ul li{
-    font-size: 10px;
-    margin-right: 10px;
+    font-size: 15px;
+    margin-right: 20px;
     font-weight: bold;
 }
+
+.aa1{
+    width: 425px;
+    display: flex;
+    flex-direction: row;
+    background-color:rgb(190, 112, 15);
+}
+
+.art02 img{
+    height: 200px;
+    width: 200px;
+}
+
+.art01{
+    height: 480px;
+    width: 225px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 25px;
+    font-size: 10px;
+}
+
+.art02{
+    /* background-color: #fa0054; */
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 }
