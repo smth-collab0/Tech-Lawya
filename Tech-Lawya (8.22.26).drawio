@@ -1,6 +1,6 @@
 <mxfile host="Electron">
   <diagram name="Page-1" id="WecKjAPIBVKhBpwTrD-9">
-    <mxGraphModel dx="1178" dy="701" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="982" dy="584" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -98,7 +98,7 @@
           <mxGeometry height="16.88" width="90" x="881" y="881.56" as="geometry" />
         </mxCell>
         <mxCell id="TLNffCvwS6_SyznYz0_J-34" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=4;strokeWidth=6;" value="" vertex="1">
-          <mxGeometry height="240" width="320" x="644" y="920" as="geometry" />
+          <mxGeometry height="240" width="320" x="643" y="920" as="geometry" />
         </mxCell>
         <mxCell id="TLNffCvwS6_SyznYz0_J-35" parent="1" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Person.svg;labelBackgroundColor=#f8cecc;labelBorderColor=#b85450;" value="" vertex="1">
           <mxGeometry height="210" width="155.4" x="791.1" y="935" as="geometry" />
@@ -249,6 +249,9 @@
         </mxCell>
         <mxCell id="K5VrVhYik1sS2cNqIOwS-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Transparent" vertex="1">
           <mxGeometry height="30" width="60" x="1502" y="1034" as="geometry" />
+        </mxCell>
+        <mxCell id="QxcdjHJSe0CUZIBBjuop-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;u style=&quot;color: rgb(255, 153, 153);&quot;&gt;Explore&lt;/u&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="672" y="1120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

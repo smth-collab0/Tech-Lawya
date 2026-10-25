@@ -66,7 +66,7 @@ nav ul li{
 .art1{
     width: 65%;
     height: 946px;
-    background-color: yellow;
+    /* background-color: yellow; */
 }
 
 .off{
@@ -116,6 +116,7 @@ nav ul li{
 .art02 img{
     height: 700px;
     width: 800px;
+    background-color: blueviolet;
 }
 
 .art2{
@@ -196,9 +197,9 @@ button{
 }
 
     header{
-    /* background-color: #36CDCC; */
+    background-color: #36CDCC;
     width: 425px;
-    margin-bottom: 160px;
+    margin-bottom: 0px;
     display: flex;
     flex-direction: row;
 }
@@ -214,7 +215,7 @@ nav{
 .img1677{
     height: 30px;
     width: 30px;
-    margin-left: 12px;
+    margin-left: 15px;
     margin-right: 35px;
 }
 
@@ -225,7 +226,7 @@ ul{
     list-style: none;
     align-items: center;
     display: flex;
-    width: 348px;
+    width: 345px;
 }
 
 nav ul li{
@@ -241,27 +242,28 @@ nav ul li{
     background-color:rgb(190, 112, 15);
 }
 
-.art02 img{
-    height: 200px;
-    width: 200px;
-}
-
 .art01{
-    height: 480px;
-    width: 225px;
+    height: 280px;
+    width: 125px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 25px;
-    font-size: 10px;
+    background-color: red;
+    font-size: 15px;
+    margin-left: 20px;
 }
 
 .art02{
     /* background-color: #fa0054; */
+    height: 280px;
     width: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.art02 img{
+    height: 200px;
+    width: 300px;
+}
 }
