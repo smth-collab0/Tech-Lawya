@@ -181,7 +181,7 @@ button{
 }
 
 @media (width <= 425px){
-    .sect1{
+        .sect1{
     width: 425px;
     /* background-color: aqua; */
     display: flex;
@@ -191,7 +191,7 @@ button{
 
 .art1{
     width: 425px;
-    background-color: yellow;
+    background-color: red;
     display: flex;
     flex-direction: column;
 }
@@ -272,4 +272,63 @@ h1{
     height: 240px;
     width: 240px;
 }
+
+.button2{
+    width: 25%;
+    margin-right: 535px;
+    margin-left: 310px;
+    border-radius: 0px 20px 0px 20px;
+    color:#e26062;
+    font-size: 15px;
+    font-weight: 700;
+    border: 2px solid #1f0000e0;
+}
+
+
+.h25{
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    font-size: 26px;
+}
+
+.art002h{
+    margin-top: 150px;
+    width: 60%;
+    background-color: rgb(146, 146, 202);
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+.art2{
+    width: 425px;
+    height: 234534px;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button1{
+    display: none;
+    margin-top: 0px;
+    margin-left: 0px;
+    background-color: #F95F63;
+    border: 2px solid #ffffff;
+    border-radius: 0px 20px 0px 20px;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.art002h{
+    width: 60%;
+    /* background-color: rgb(146, 146, 202); */
+    display: flex;
+    flex-direction: column;
+}
+
 }
